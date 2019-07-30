@@ -2,6 +2,7 @@ SDIR := src/
 IFLAGS := include/
 LFLAGS := -lm
 main: ${SDIR}/latex_delegate.o
-	g++
+	g++ ${SDIR}/latex_delegate.o -o test.exe
+
 clean:
-	rm -rf  ${SDIR}/*.o
+	del ${SDIR}/*.o

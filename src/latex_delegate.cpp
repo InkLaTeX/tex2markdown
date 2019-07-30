@@ -10,6 +10,10 @@ latex_delegate::latex_delegate()
 {
 
 }
+latex_delegate::~latex_delegate()
+{
+
+}
 void latex_delegate::xelatex_compile(string filename)
 {
     system(string("xelatex " + filename).data());

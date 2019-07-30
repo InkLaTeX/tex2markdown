@@ -1,0 +1,6 @@
+os: linux
+language: cpp
+before_install:
+  - alias del="rm -rf"
+install:
+  - make
