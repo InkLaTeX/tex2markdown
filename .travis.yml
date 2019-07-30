@@ -1,4 +1,4 @@
-os: linux
+os: windows
 language: cpp
 before_install:
   - alias del="rm -rf"
