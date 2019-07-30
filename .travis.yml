@@ -2,5 +2,4 @@ os: windows
 language: cpp
 before_install:
   - alias del="rm -rf"
-install:
-  - make
+install: true
