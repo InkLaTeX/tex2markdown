@@ -1,8 +1,7 @@
-CXX = g++.exe
-SDIR = src/
-IFLAGS = include/
-LFLAGS = -lm
-main: 
-
+SDIR := src/
+IFLAGS := include/
+LFLAGS := -lm
+main: ${SDIR}/latex_delegate.o
+	g++
 clean:
-	rm -rf 
+	rm -rf  ${SDIR}/*.o
